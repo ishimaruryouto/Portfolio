@@ -1,0 +1,19 @@
+@use "../../Scss//variables" as *;
+
+.works_card_wrap {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    // border: 1px solid tomato;
+}
+
+.h3 {
+    color: $h3-text-color;
+    font-size: $sub-text-size;
+    font-weight: bold;
+}
+
+.p {
+    color: $sub-text-color;
+    font-size: $mini-text-size;
+}
