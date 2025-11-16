@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.scss";
 import WorksSection from "./Components/WorksSection/WorkSection";
+import SkillsSection from "./Components/SkillsSection/SkillsSection";
 export default function Home() {
   return (
     <>
@@ -28,7 +29,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <WorksSection />;
+      <SkillsSection />
     </>
   );
 }

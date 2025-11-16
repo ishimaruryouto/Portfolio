@@ -1,0 +1,22 @@
+@use "../../Scss/variables" as *;
+
+.h2 {
+    color: $main-text-color;
+    font-size: $main-text-size;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+.skills_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+    background-color: $bg-color;
+    margin: 0 100px;
+    // border: 1px solid tomato;
+}
