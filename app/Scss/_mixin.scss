@@ -1,0 +1,10 @@
+@use "./variables" as *;
+
+@mixin h2_style {
+    color: $main-text-color;
+    font-size: $main-text-size;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}

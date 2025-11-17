@@ -1,12 +1,8 @@
 @use "../../Scss/variables" as *;
+@use "../../Scss//mixin" as *;
 
 .h2 {
-    color: $main-text-color;
-    font-size: $main-text-size;
-    font-weight: bold;
-    margin-left: 100px;
-    margin-top: 180px;
-    margin-bottom: 20px;
+    @include h2_style;
 }
 
 .skills_wrap {
@@ -18,5 +14,4 @@
     border-radius: 20px;
     background-color: $bg-color;
     margin: 0 100px;
-    // border: 1px solid tomato;
 }

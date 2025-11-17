@@ -1,0 +1,92 @@
+@use "../../Scss/variables" as *;
+@use "../../Scss//mixin" as *;
+
+.h2 {
+    @include h2_style;
+}
+
+.About_wrap {
+    position: relative;
+    // border: 1px solid tomato;
+}
+
+.photo {
+    position: absolute;
+    border-radius: 20px;
+
+    &:nth-child(1) {
+        top: 40px;
+        left: 200px;
+    }
+
+    &:nth-child(2) {
+        top: 540px;
+        left: 148px;
+    }
+
+    &:nth-child(3) {
+        top: 180px;
+        right: 135px;
+    }
+}
+
+.info_wrap {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 350px;
+    height: 430px;
+    background-color: $bg-color;
+    border-radius: 20px;
+    // border: 1px solid skyblue;
+
+    .img_text_wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        // width: fit-content;
+        margin-top: 72px;
+        // border: 1px solid tomato;
+
+        .info_text {
+            p {
+                color: $main-text-color;
+                font-size: $sub-text-size;
+                font-weight: bold;
+
+            }
+        }
+    }
+
+    .more_me {
+        display: block;
+        color: $sub-text-color;
+        font-size: $main-text-size;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 56px;
+    }
+}
+
+.contact_wrap {
+    position: absolute;
+    bottom: -900px;
+    right: 135px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: $bg-color;
+
+    .contact_text {
+        padding-top: 45px;
+
+        p {
+            color: $sub-text-color;
+            font-size: $mini-text-size;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+}

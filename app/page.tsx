@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./page.module.scss";
 import WorksSection from "./Components/WorksSection/WorkSection";
 import SkillsSection from "./Components/SkillsSection/SkillsSection";
+import AboutMeSection from "./Components/AboutMeSection/AboutMeSection";
 export default function Home() {
   return (
     <>
@@ -30,8 +31,9 @@ export default function Home() {
         </div>
       </div>
 
-      <WorksSection />;
+      <WorksSection />
       <SkillsSection />
+      <AboutMeSection />
     </>
   );
 }
