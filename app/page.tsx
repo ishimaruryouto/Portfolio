@@ -5,7 +5,7 @@ import WorksSection from "./Components/WorksSection/WorkSection";
 import SkillsSection from "./Components/SkillsSection/SkillsSection";
 import AboutMeSection from "./Components/AboutMeSection/AboutMeSection";
 import ContactSection from "./Components/ContactSection/ContactSection";
-export default function Home() {
+export default function Top() {
   return (
     <>
       <div className={styles.main_visual}>
