@@ -4,6 +4,7 @@ import styles from "./page.module.scss";
 import WorksSection from "./Components/WorksSection/WorkSection";
 import SkillsSection from "./Components/SkillsSection/SkillsSection";
 import AboutMeSection from "./Components/AboutMeSection/AboutMeSection";
+import ContactSection from "./Components/ContactSection/ContactSection";
 export default function Home() {
   return (
     <>
@@ -34,6 +35,7 @@ export default function Home() {
       <WorksSection />
       <SkillsSection />
       <AboutMeSection />
+      <ContactSection />
     </>
   );
 }

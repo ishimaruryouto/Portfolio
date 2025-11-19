@@ -1,0 +1,42 @@
+@use "../../Scss/variables" as *;
+@use "../../Scss//mixin" as *;
+
+.h2 {
+    @include h2_style;
+    margin-top: 1080px;
+}
+
+.contact_wrap {
+    width: 1240px;
+    height: 400px;
+    background-color: $bg-color;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: 1px solid tomato;
+
+    p {
+        color: $main-text-color;
+        font-size: $main-text-size;
+        font-weight: bold;
+    }
+}
+
+.mail,
+.tell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+
+    // border: 1px solid tomato;
+    p {
+        color: $main-text-color;
+        font-size: $main-text-size;
+        font-weight: bold;
+
+    }
+
+    &:nth-child(2) {
+        margin-top: 40px;
+    }
+}

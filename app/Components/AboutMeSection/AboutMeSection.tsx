@@ -36,7 +36,7 @@ export default function AboutMeSection() {
                     </div>
                 </div>
 
-                <div className={styles.contact_wrap}>
+                <div className={styles.contact_circle}>
                     <div className={styles.contact_text}>
                         <p>contact</p>
                         <p>↓</p>
