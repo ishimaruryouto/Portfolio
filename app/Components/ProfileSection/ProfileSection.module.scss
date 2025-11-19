@@ -1,0 +1,58 @@
+@use "../../Scss/variables" as *;
+@use "../../Scss/mixin" as *;
+
+.h2 {
+    @include h2_style;
+    color: #C9C2C2;
+    // margin-top: 1080px;
+}
+
+.row_wrap {
+    width: 900px;
+    margin: 0 auto;
+
+    .row {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 8px;
+        row-gap: 8px;
+        margin-top: 10px;
+
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+
+        dt,
+        dd {
+            color: $main-text-color;
+            font-size: $mini-text-size;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+    }
+}
+
+.photo_wrap {
+    display: flex;
+    justify-content: space-between;
+
+    .photo1 {
+        margin-top: -40px;
+        margin-left: 460px;
+    }
+
+    .photo2 {
+        margin-right: 180px;
+    }
+
+    .photo3 {
+        margin-top: 80px;
+        margin-left: 240px;
+    }
+
+    .photo4 {
+        margin-right: 180px;
+    }
+}
