@@ -1,0 +1,100 @@
+@use "../../Scss/variables" as *;
+@use "../../Scss/mixin" as *;
+
+.h2 {
+    @include h2_style;
+    color: #C9C2C2;
+    margin-bottom: 0;
+    // margin-top: 1080px;
+}
+
+.p {
+    color: $sub-text-color;
+    font-size: $high-mini-text-size;
+    margin-left: 100px;
+}
+
+.career_wrap {
+    width: fit-content;
+    margin: 0 auto;
+    // border: 1px solid tomato;
+}
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: $bg-color;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(26, 26, 26, 0.25) inset;
+
+    .career_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        width: 800px;
+        text-align: center;
+
+        p {
+            color: $main-text-color;
+            font-size: $high-sub-text-size;
+            line-height: 1.4;
+
+            &:nth-child(1) {
+                margin-bottom: 8px;
+            }
+
+            &:nth-child(2) {
+                font-weight: bold;
+            }
+
+            span {
+                font-size: $sub-text-size;
+            }
+        }
+    }
+
+
+    &:nth-child(1) {
+        top: 64px;
+    }
+
+    &:nth-child(2) {
+        top: 150px;
+        left: 275px;
+    }
+
+    &:nth-child(3) {
+        top: 200px;
+    }
+
+    &:nth-child(4) {
+        top: 250px;
+        right: 275px;
+    }
+
+    &:nth-child(5) {
+        top: 300px;
+    }
+
+    &:nth-child(6) {
+        top: 350px;
+        left: 275px;
+    }
+
+    &:nth-child(7) {
+        width: 250px;
+        height: 250px;
+        top: 400px;
+
+        // .career_text {
+        //     p {
+        //         // text-align: center;
+        //         width: 1100px;
+        //         font-size: 3.2rem;
+        //         margin: 0 auto;
+        //     }
+        // }
+    }
+}
