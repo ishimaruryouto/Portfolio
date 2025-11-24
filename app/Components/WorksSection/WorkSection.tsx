@@ -40,7 +40,7 @@ export default function WorksSection() {
     return (
         <>
             <section className={styles.works}>
-                <h2 className={styles.heading}>Works</h2>
+                <h2 className={styles.h2}>Works</h2>
                 <div className={styles.grid}>
                     {works.map((w) => <WorksCard key={w.title} {...w} />)}
                 </div>

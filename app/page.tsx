@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.scss";
+import Header from "./Components/Header/Header";
 import WorksSection from "./Components/WorksSection/WorkSection";
 import SkillsSection from "./Components/SkillsSection/SkillsSection";
 import AboutMeSection from "./Components/AboutMeSection/AboutMeSection";
@@ -9,6 +10,7 @@ export default function Top() {
   return (
     <>
       <div className={styles.main_visual}>
+        <Header />
         <div className={styles.info_wrap}>
           <div>
             <Image src="/img/my_photo.png" alt="石丸椋士の写真" width={400} height={500} />
@@ -36,6 +38,9 @@ export default function Top() {
       <SkillsSection />
       <AboutMeSection />
       <ContactSection />
+
+      <p className={styles.last_word}>Thank you for visiting my portfolio.<br />
+        I look forward to connecting with you.</p>
     </>
   );
 }

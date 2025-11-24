@@ -1,8 +1,17 @@
+@use "../../Scss//variables" as *;
+@use "../../Scss//mixin" as *;
+
+
+.h2 {
+    @include h2_style;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: fit-content;
     margin: 0 auto;
     gap: 165px 300px;
-    // border: 1px solid skyblue;
 }
+
+// border: 1px solid skyblue;

@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap");
 
 .main_visual {
+    position: relative;
     display: flex;
     justify-content: center;
     width: auto;
@@ -55,4 +56,12 @@
             margin-top: 30px;
         }
     }
+}
+
+.last_word {
+    color: $main-text-color;
+    font-size: $main-text-size;
+    font-weight: lighter;
+    text-align: center;
+    margin: 100px 0;
 }

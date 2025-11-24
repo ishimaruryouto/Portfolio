@@ -1,19 +1,34 @@
 @use "../../Scss//variables" as *;
+@use "../../Scss//mixin" as *;
 
 .works_card_wrap {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    // border: 1px solid tomato;
+    margin-top: 10px;
+}
+
+.h2 {
+    @include h2_style;
 }
 
 .h3 {
     color: $h3-text-color;
     font-size: $sub-text-size;
     font-weight: bold;
+
+    span {
+        font-size: $high-sub-text-size;
+        font-weight: lighter;
+    }
 }
 
 .p {
     color: $sub-text-color;
     font-size: $mini-text-size;
+    margin-top: 5px;
+}
+
+.work_img {
+    margin-top: 10px;
 }

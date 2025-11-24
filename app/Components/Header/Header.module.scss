@@ -1,10 +1,16 @@
 @use "../../Scss/variables" as *;
 
 .header {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100vw;
     padding: 0 100px;
+    padding-top: 20px;
+
 }
 
 .nav {
@@ -13,7 +19,7 @@
 
         .link {
             color: $main-text-color;
-            font-size: $main-text-size;
+            font-size: $sub-text-size;
             font-weight: bold;
             padding-left: 70px;
         }

@@ -1,10 +1,12 @@
 import Image from "next/image";
 import styles from "./AboutMainvisual.module.scss";
+import Header from "../Header/Header";
 
 export default function AboutMainvisual() {
     return (
         <>
             <div className={styles.main_visual}>
+                <Header />
                 <div className={styles.info_wrap}>
                     <div>
                         <Image src="/img/ryouto_photo.png" alt="石丸椋士の写真" width={400} height={500} />
