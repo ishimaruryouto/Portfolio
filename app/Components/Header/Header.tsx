@@ -6,14 +6,13 @@ export default function Home() {
         <>
             <header className={styles.header}>
                 <div>
-                    <Link href="#">
+                    <Link href="/">
                         <Image src="/img/logo.png" alt="ロゴ" width={60} height={70} />
                     </Link>
                 </div>
                 <nav className={styles.nav}>
                     <ul>
-                        <li><Link href="#" className={styles.link}>Works</Link></li>
-                        <li><Link href="#" className={styles.link}>Profile</Link></li>
+                        <li><Link href="/About" className={styles.link}>Profile</Link></li>
                     </ul>
                 </nav>
             </header>

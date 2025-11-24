@@ -31,7 +31,7 @@ export default function AboutMeSection() {
                             </div>
                         </div>
                         <p>
-                            <Link href="#" className={styles.more_me}>more me</Link>
+                            <Link href="/About" className={styles.more_me}>more me</Link>
                         </p>
                     </div>
                 </div>
