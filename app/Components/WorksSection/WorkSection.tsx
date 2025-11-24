@@ -8,15 +8,7 @@ const works: Work[] = [
         catchcopy: "バイクの仲間との交流を",
         desc: "バイク仲間との架け橋サイト",
         imgSrc: "/img/All_Riders_Cafe_topthumb.png",
-        link: "/works/allRidersCafe",
-    },
-    {
-        title: "ウォレンジ",
-        type: "チーム",
-        catchcopy: "みんなで貯金を",
-        desc: "友達と貯金できるWebアプリ",
-        imgSrc: "/img/warrenji.png",
-        link: "/works/warrenji",
+        link: "/AllRidersCafe",
     },
     {
         title: "UIコンポーネントサイト",
@@ -24,7 +16,7 @@ const works: Work[] = [
         catchcopy: "UIに対しての理解を深める",
         desc: "オリジナル UIコンポーネントサイト",
         imgSrc: "/img/UI_component.png",
-        link: "/works/uiComponent",
+        link: "/UIComponent",
     },
     {
         title: "めもれる",
@@ -32,7 +24,7 @@ const works: Work[] = [
         catchcopy: "子供のプレゼントを保存",
         desc: "親子で思い出保存Webアプリ",
         imgSrc: "/img/memoreru.png",
-        link: "/works/memoreru",
+        link: "/Memoreru",
     },
     {
         title: "FitPath",
@@ -40,17 +32,8 @@ const works: Work[] = [
         catchcopy: "筋トレで未来を変える",
         desc: "筋トレ初心者用Webアプリ",
         imgSrc: "/img/FitPath.png",
-        link: "/works/fitpath",
+        link: "/FitPath",
     },
-    {
-        title: "Duel Day",
-        type: "個人",
-        catchcopy: "無駄な休日脱却へ",
-        desc: "対戦型ToDoWebアプリ",
-        imgSrc: "/img/DuelDay.png",
-        link: "/works/duelday",
-    },
-
 ]
 
 export default function WorksSection() {

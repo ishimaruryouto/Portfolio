@@ -20,7 +20,7 @@ export default function worksCard(props: Work) {
                 <p className={styles.p}>{catchcopy}</p>
                 <p className={styles.p}>{desc}</p>
                 <div>
-                    <Link href="#">
+                    <Link href={link}>
                         <Image src={imgSrc} alt={`${title}のサムネイル`} width={280} height={280} />
                     </Link>
                 </div>
