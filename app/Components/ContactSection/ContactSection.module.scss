@@ -3,7 +3,7 @@
 
 .h2 {
     @include h2_style;
-    margin-top: 1080px;
+    margin-top: 800px;
 }
 
 .contact_wrap {
@@ -12,7 +12,7 @@
     background-color: $bg-color;
     border-radius: 20px;
     margin: 0 auto;
-    border: 1px solid tomato;
+    // border: 1px solid tomato;
 
     p {
         color: $main-text-color;

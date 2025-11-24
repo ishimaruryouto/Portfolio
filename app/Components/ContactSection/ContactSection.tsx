@@ -16,9 +16,7 @@ export default function ContactSection() {
                     <Image src="/img/tell.png" alt="メール" width={40} height={40} />
                     <p>080-7965-5658</p>
                 </div>
-
             </div>
-
         </>
     );
 }

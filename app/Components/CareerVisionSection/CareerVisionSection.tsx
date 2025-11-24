@@ -54,7 +54,22 @@ export default function CareerVisionSection() {
                         <p>チームの力を最大化し、プロジェクトを成功に導くディレクター／PMへ</p>
                     </div>
                 </div>
+
+                <div className={styles.line1}></div>
+                <div className={styles.line2}></div>
+                <div className={styles.line3}></div>
+                <div className={styles.line4}></div>
+                {/* <div className={`${styles.line} ${styles.l6_5}`}></div>
+                <div className={`${styles.line} ${styles.l5_4}`}></div>
+                <div className={`${styles.line} ${styles.l4_3}`}></div> */}
+                <div className={styles.contact_circle}>
+                    <div className={styles.contact_text}>
+                        <p>contact</p>
+                        <p>↓</p>
+                    </div>
+                </div>
             </div>
+
         </>
     );
 }
