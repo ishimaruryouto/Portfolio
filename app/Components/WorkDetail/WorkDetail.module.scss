@@ -38,6 +38,10 @@
                 display: inline-block;
                 width: 120px;
             }
+
+            &:nth-child(5) {
+                margin-bottom: 10px;
+            }
         }
     }
 

@@ -10,6 +10,7 @@ export type WorkDetailProps = {
     tech: string;
     tools: string;
     link?: string;
+    WorksManual: string;
     overview: string;
     problems: { problem: string; solution: string }[];
     learning: string;
@@ -26,6 +27,7 @@ export default function WorkDetail(props: WorkDetailProps) {
         tech,
         tools,
         link,
+        WorksManual,
         overview,
         problems,
         learning,
@@ -52,6 +54,7 @@ export default function WorkDetail(props: WorkDetailProps) {
                             <a href={link} target="_blank">{link}</a>
                         </p>
                     )}
+                    <p><span></span>{WorksManual}</p>
                 </div>
             </div>
 

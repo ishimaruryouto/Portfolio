@@ -10,7 +10,8 @@ export default function AllRidersCafe() {
             role="デザイン / コーディング / 企画"
             tech="HTML / CSS（Flexbox）"
             tools="Figma / Illustrator / Photoshop / VSCode"
-            // link="https://example.com"
+            link="https://all-riders-cafe.vercel.app/"
+            WorksManual=""
             overview="
                 バイク初心者と経験者が気軽に交流できる中間地点カフェのコンセプトサイト。
                 色別リストバンド・バイクストーリーシェア・QRアクスタなど、当日の会話のきっかけや

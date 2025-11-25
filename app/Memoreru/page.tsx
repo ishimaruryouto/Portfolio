@@ -12,7 +12,8 @@ export default function MemoreruPage() {
             role="デザイン、コーディング"
             tech="HTML、CSS（レイアウトはFlexbox中心）"
             tools="Notion / Figma / VSコード"
-            link="#"
+            link="https://camp.moo.jp/2024/F/"
+            WorksManual="(スマホサイズでご視聴＆カレンダーは左上だけ操作可能)"
             overview="
 子どもからのプレゼントや工作が時間とともに失われてしまう問題に向き合い、思い出をかたちとして残せるよう設計した記録アプリ。
 実物が残らなくても思い出が消えないように、家族が“気持ちを残せる場”としての保存体験を提案。

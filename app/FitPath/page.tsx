@@ -10,8 +10,8 @@ export default function FitPathPage() {
             role="すべて"
             tech="HTML / JS / CSS（Flexbox中心）"
             tools="Notion / Figma / Illustrator / Photoshop / VSCode"
-            link="#"
-
+            link="https://fit-path.vercel.app"
+            WorksManual="(スマホサイズでご視聴ください)"
             overview="筋トレ初心者が迷わず続けられるように設計した、習慣化をサポートするトレーニングアプリ。
 メニューごとに“ポイント解説”や“効く部位のイラスト”を用意し、迷わず正しいフォームで続けられる設計に。
 さらにカレンダーで積み上げを可視化し、グループ機能で仲間と継続できる仕組みを構築。

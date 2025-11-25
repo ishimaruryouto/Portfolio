@@ -11,7 +11,8 @@ export default function UIComponentsPage() {
             role="すべて"
             tech="Next.js / Scss（レイアウトの共通化）"
             tools="Notion / Figma / VSCode"
-            link=""
+            link="https://ui-component-mu.vercel.app"
+            WorksManual="(Button,Navigation,Sheet,のみ制作済み)"
             overview="
 UIデザインに対する理解を深めるために、オリジナルのUIコンポーネントサイトを制作しました。
 『なぜこのUIを使うのか』『どんな場面で使うのか』『使う上での注意点は何か』を整理し、
