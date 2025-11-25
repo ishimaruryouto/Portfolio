@@ -66,18 +66,18 @@ export default function WorkDetail(props: WorkDetailProps) {
             <section className={styles.section}>
                 <h2>課題と解決アプローチ</h2>
 
-                <div className={styles.cardGrid}>
+                <div className={styles.card_grid}>
                     {problems.map((item, index) => (
-                        <div key={index} className={styles.cardWrap}>
+                        <div key={index} className={styles.card_wrap}>
 
-                            <div className={styles.problemCard}>
+                            <div className={styles.problem_card}>
                                 <h3>課題 {index + 1}</h3>
                                 <p>{item.problem}</p>
                             </div>
 
                             <div className={styles.arrow}>↓</div>
 
-                            <div className={styles.solutionCard}>
+                            <div className={styles.solution_card}>
                                 <h3>解決 {index + 1}</h3>
                                 <p>{item.solution}</p>
                             </div>

@@ -16,10 +16,11 @@ export default function AboutMainvisual() {
                             <span className={styles.name}>Ryouto</span>
                             <span className={styles.last_name}>Ishimaru</span>
                         </h1>
+
                         <div className={styles.row_wrap}>
                             <dl>
                                 <div className={styles.row}>
-                                    <dt>Name </dt>
+                                    <dt>Name</dt>
                                     <dd>：石丸 椋士(いしまる りょうと)</dd>
                                 </div>
 
@@ -42,7 +43,7 @@ export default function AboutMainvisual() {
                                     <dt>Interest</dt>
                                     <dd>
                                         ：フロントエンドエンジニア<br />
-                                        バックエンドエンジニア
+                                        <span>バックエンドエンジニア</span>
                                     </dd>
                                 </div>
 
@@ -50,11 +51,12 @@ export default function AboutMainvisual() {
                                     <dt>One Word</dt>
                                     <dd>
                                         ：将来はPL&PMになるために現在デザインも<br />
-                                        コーディングも毛嫌いせず奮闘中です！
+                                        <span>コーディングも毛嫌いせず奮闘中です！</span>
                                     </dd>
                                 </div>
                             </dl>
                         </div>
+
                     </div>
                 </div>
             </div>

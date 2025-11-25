@@ -5,17 +5,25 @@
     @include h2_style;
 }
 
-.About_wrap {
+.about_wrap {
     position: relative;
     width: 100vw;
     height: 100vh;
     margin-bottom: 300px;
-    // border: 1px solid tomato;
 }
 
 .photo {
     position: absolute;
     border-radius: 20px;
+
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+
+    &.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
     &:nth-child(1) {
         top: 40px;

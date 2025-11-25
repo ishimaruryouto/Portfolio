@@ -1,9 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import styles from "./page.module.scss";
 import Header from "./Components/Header/Header";
 import WorksSection from "./Components/WorksSection/WorkSection";
-import SkillsSection from "./Components/SkillsSection/SkillsSection";
 import AboutMeSection from "./Components/AboutMeSection/AboutMeSection";
 import ContactSection from "./Components/ContactSection/ContactSection";
 export default function Top() {
@@ -22,20 +20,44 @@ export default function Top() {
             </h1>
             <div className={styles.info_text_wrap}>
               <ul className={styles.ul}>
-                <li>フロントエンドエンジニア志望</li>
-                <li>将来はディレクター志望</li>
+                <li>ECCコンピュータ専門学校</li>
+                <li>フロントエンドエンジニア</li>
               </ul>
               <ul className={styles.ul}>
-                <li>ECCコンピュータ専門学校</li>
                 <li>Webデザインコース　27卒</li>
+                <li>将来はディレクター志望</li>
               </ul>
+            </div>
+            <div className={styles.skill_wrap}>
+              <div className={styles.skill_img}>
+                <Image src="/img/Next.js.png" alt="Next.js" width={63} height={37} />
+              </div>
+
+              <div className={styles.skill_img}>
+                <Image src="/img/astro.png" alt="Astro" width={40} height={50} />
+              </div>
+
+              <div className={styles.skill_img}>
+                <Image src="/img/sass.png" alt="Sass" width={60} height={45} />
+              </div>
+
+              <div className={styles.skill_img}>
+                <Image src="/img/tailwind.png" alt="Tailwind" width={60} height={60} />
+              </div>
+
+              <div className={styles.skill_img}>
+                <Image src="/img/html.png" alt="HTML" width={63} height={37} />
+              </div>
+
+              <div className={styles.skill_img}>
+                <Image src="/img/js.png" alt="JS" width={60} height={60} />
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <WorksSection />
-      <SkillsSection />
       <AboutMeSection />
       <ContactSection />
 

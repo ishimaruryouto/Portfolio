@@ -44,26 +44,39 @@
 }
 
 .row_wrap {
-    background-color: rgba($color: $bg-color, $alpha: .3);
-    padding: 20px 30px;
+    background: #005A64;
+    box-shadow: 0 0 8px 0 #005A64 inset;
+    padding: 28px 40px;
     border-radius: 20px;
     margin-top: 40px;
+    width: 596px;
+    line-height: 2;
 
     .row {
         display: grid;
-        grid-template-columns: auto 1fr;
-        column-gap: 8px;
-        row-gap: 8px;
-        margin-top: 10px;
+        grid-template-columns: 150px 1fr;
+        column-gap: 12px;
+        row-gap: 16px;
+        margin-top: 6px;
 
-        &:nth-child(1) {
+        &:first-child {
             margin-top: 0;
         }
 
-        dt,
+        dt {
+            font-weight: bold;
+            color: $main-text-color;
+            font-size: 1.6rem;
+        }
+
         dd {
             color: $main-text-color;
-            font-size: $mini-text-size;
+            font-size: 1.6rem;
+            line-height: 1.8;
+
+            span {
+                margin-left: 1em;
+            }
         }
     }
 }

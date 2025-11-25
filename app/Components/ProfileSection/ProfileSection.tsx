@@ -15,38 +15,35 @@ export default function ProfileSection() {
                 </div>
             </div>
 
+            <div className={styles.profile_table}>
+                <div className={styles.row}>
+                    <dt>Field of study：</dt>
+                    <dd>兵庫県宝塚市</dd>
+                </div>
 
-            <div className={styles.row_wrap}>
-                <dl>
-                    <div className={styles.row}>
-                        <dt>Field of study：</dt>
-                        <dd>兵庫県宝塚市</dd>
-                    </div>
+                <div className={styles.row}>
+                    <dt>Hobby：</dt>
+                    <dd>バイクに乗ること、車でドライブ、自然を感じること、筋トレ</dd>
+                </div>
 
-                    <div className={styles.row}>
-                        <dt>Hobby：</dt>
-                        <dd>バイクに乗ること、車でドライブ、自然を感じること、筋トレ</dd>
-                    </div>
+                <div className={styles.row}>
+                    <dt>Residence：</dt>
+                    <dd>企画、UI設計からフロント／バックエンド開発まで幅広く学習中。</dd>
+                </div>
 
-                    <div className={styles.row}>
-                        <dt>Residence：</dt>
-                        <dd>企画、UI設計からフロント／バックエンド開発まで幅広く学習中。</dd>
-                    </div>
+                <div className={styles.row}>
+                    <dt>Specialty Field：</dt>
+                    <dd>CSSを使ったレイアウト調整、デザインの再現。</dd>
+                </div>
 
-                    <div className={styles.row}>
-                        <dt>Specialty Field：</dt>
-                        <dd>CSSを使ったレイアウト調整、デザインの再現。</dd>
-                    </div>
-
-                    <div className={styles.row}>
-                        <dt>Production Style：</dt>
-                        <dd>
-                            コードの見やすさと再利用性を意識した設計。
-                            特にCSSでは、クラス構造や命名規則を整理し、
-                            他の人が読んでも理解しやすいコードを意識。
-                        </dd>
-                    </div>
-                </dl>
+                <div className={styles.row}>
+                    <dt>Production Style：</dt>
+                    <dd>
+                        コードの見やすさと再利用性を意識した設計。
+                        特にCSSでは、クラス構造や命名規則を整理し、
+                        他の人が読んでも理解しやすいコードを意識。
+                    </dd>
+                </div>
             </div>
 
             <div className={styles.photo_wrap}>
