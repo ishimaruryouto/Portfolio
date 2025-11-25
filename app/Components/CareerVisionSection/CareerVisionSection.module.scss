@@ -17,8 +17,9 @@
 .career_wrap {
     position: relative;
     width: fit-content;
+    height: 100%;
     margin: 0 auto;
-    // border: 1px solid tomato;
+    margin-bottom: 700px;
 }
 
 .circle {
@@ -89,15 +90,6 @@
         width: 250px;
         height: 250px;
         top: 400px;
-
-        // .career_text {
-        //     p {
-        //         // text-align: center;
-        //         width: 1100px;
-        //         font-size: 3.2rem;
-        //         margin: 0 auto;
-        //     }
-        // }
     }
 }
 

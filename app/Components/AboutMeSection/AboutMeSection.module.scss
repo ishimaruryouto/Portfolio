@@ -7,6 +7,9 @@
 
 .About_wrap {
     position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 300px;
     // border: 1px solid tomato;
 }
 
@@ -39,16 +42,13 @@
     height: 430px;
     background-color: $bg-color;
     border-radius: 20px;
-    // border: 1px solid skyblue;
 
     .img_text_wrap {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 25px;
-        // width: fit-content;
         margin-top: 72px;
-        // border: 1px solid tomato;
 
         .info_text {
             p {
@@ -92,7 +92,7 @@
 
 .contact_circle {
     position: absolute;
-    bottom: -900px;
+    bottom: -300px;
     right: 135px;
     width: 130px;
     height: 130px;
